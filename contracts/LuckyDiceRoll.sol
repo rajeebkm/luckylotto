@@ -79,16 +79,16 @@ contract LuckyDiceRoll is VRFConsumerBaseV2Plus {
     uint256 public lastRequestId;
 
     /// @dev Key hash for Chainlink VRF.
-    bytes32 public keyHash;
+    bytes32 public keyHash = 0x9e1344a1247c8a1785d0a4681a27152bffdb43666ae5bf7d14d24a5efd44bf71;
 
     /// @dev Gas limit for callback processing.
-    uint32 public callbackGasLimit;
+    uint32 public callbackGasLimit = 2500000;
 
     /// @dev Number of confirmations required for the random request.
-    uint16 public requestConfirmations;
+    uint16 public requestConfirmations = 3;
 
     /// @dev Number of random values to request.
-    uint32 public numWords;
+    uint32 public numWords = 2;
 
     /// @dev VRFConsumerBaseV2Plus contract address
     address _VRFConsumerBaseV2Plus = 0x5C210eF41CD1a72de73bF76eC39637bB0d3d7BEE;
@@ -98,7 +98,7 @@ contract LuckyDiceRoll is VRFConsumerBaseV2Plus {
      * @param subscriptionId The subscription ID for funding Chainlink VRF requests.
      */
     constructor(uint256 subscriptionId) VRFConsumerBaseV2Plus(_VRFConsumerBaseV2Plus) {
-        s_subscriptionId = subscriptionId;
+        s_subscriptionId = subscriptionId; 
     }
 
     /**

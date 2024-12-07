@@ -4,6 +4,8 @@
 
 LuckyLotto is a decentralized betting platform that leverages blockchain technology to provide a seamless and transparent gaming experience. Gamers can engage in exciting games like dice rolling, coin flip, and wheel spin, powered by smart contracts to ensure fairness and immutability.
 
+<img width="1433" alt="Screenshot 2024-12-08 at 04 49 23" src="https://github.com/user-attachments/assets/453f85a0-956c-4d7a-9bbd-4b6111cddf3d">
+
 ## Table of Contents  
 - [Description](#description)  
 - [Features](#features)  
@@ -16,6 +18,8 @@ LuckyLotto is a decentralized betting platform that leverages blockchain technol
 
 ## Description  
 LuckyLotto is designed to bring transparency and excitement to online betting. By utilizing blockchain smart contracts, LuckyLotto guarantees secure and fair gameplay. The platform enables players to participate in various games, place bets, and instantly verify results—all within a decentralized environment.
+
+<img width="1434" alt="Screenshot 2024-12-08 at 04 49 47" src="https://github.com/user-attachments/assets/1b135708-f699-4c6b-9dab-f7362ce64a79">
 
 ## Features  
 - **Decentralized Betting:** Fully transparent and immutable, ensuring a fair gaming experience.  
@@ -52,7 +56,9 @@ LuckyLotto is designed to bring transparency and excitement to online betting. B
    npx hardhat run scripts/deploy.js --network <network_name>  
    ```  
 
-5. Update the frontend with the deployed contract addresses (e.g., in a `app/utils/constant.ts` file).  
+5. Update the frontend with the deployed contract addresses (e.g., in a `app/utils/constant.ts` file).
+   
+<img width="1422" alt="Screenshot 2024-12-08 at 04 50 17" src="https://github.com/user-attachments/assets/eae5aab1-ed66-4351-a417-2fd2a0245389">
 
 ## Frontend Interaction  
 LuckyLotto offers an intuitive user interface where players can:  

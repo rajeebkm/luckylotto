@@ -1,0 +1,13 @@
+{
+    "hardhat": {
+    },
+    "seiTestnet": {
+    },
+    "localhost": {
+    },
+    "baseSepolia": {
+        "LuckyDiceRoll":""
+    },
+    "supraTestnet": {
+    }
+}

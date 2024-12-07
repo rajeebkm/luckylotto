@@ -91,7 +91,7 @@ contract LuckyDiceRoll is VRFConsumerBaseV2Plus {
     uint32 public numWords;
 
     /// @dev VRFConsumerBaseV2Plus contract address
-    address _VRFConsumerBaseV2Plus = 0x9DdfaCa8183c41ad55329BdeeD9F6A8d53168B1B;
+    address _VRFConsumerBaseV2Plus = 0x5C210eF41CD1a72de73bF76eC39637bB0d3d7BEE;
 
     /**
      * @notice Constructor to initialize the contract.

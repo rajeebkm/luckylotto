@@ -1,0 +1,3 @@
+[submodule "akavelink"]
+	path = akavelink
+	url = https://github.com/akave-ai/akavelink
